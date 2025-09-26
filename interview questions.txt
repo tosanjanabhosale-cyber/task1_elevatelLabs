@@ -1,0 +1,27 @@
+### 	Questions #####
+
+
+what is an open port?
+>> A network port that accept incoming connnections and has a service listening on it is a open port.
+
+How does Nmap perform a TCP SYN scan?
+>> Sends SYN packets to target ports,analyzes responses(SYN-ACK = open, RST = closed).
+
+What risks are associated with open ports?
+>>Unauthorized access,service exploitation,data breaches,malware entry points.
+
+Explain TCP & UDP scanning?
+>>TCP:Connections-oreinted,reliable,uses,handshake.
+>>UDP:Connectionless,faster but less reliable.
+
+How to secure opem ports?
+>>Use firewalls,disable unnecessary services,implement access controls,regular updates.
+
+Firewall role regarding ports?
+>>Control trafic flow by allowing/blocking specific ports based on security.
+
+Port scan and attacker motives?
+>>Reconnaissance to identify vulnerable service and plan attacks.
+
+Wireshark complement?
+>>Provides packet-level analysis to understand scan behavior and detect anomalies.
